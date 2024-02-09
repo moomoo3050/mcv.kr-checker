@@ -1,7 +1,7 @@
 # MCV.KR IP Checker
 ## info
 mcv.kr공식 [가이드라인](https://cafe.naver.com/mcvkr/136)에 따른 간단한 IP유출 여부를 확인하는 웹사이트 입니다.
-
+**이 프로젝트는 현재 제작 중입니다**
 ## todo
 - [ ] IPv6 지원
 - [ ] 프론트엔드 개편(애니메이션 추가 등)
