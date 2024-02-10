@@ -1,6 +1,6 @@
 # MCV.KR IP Checker
 ## info
-mcv.kr공식 [가이드라인](https://cafe.naver.com/mcvkr/136)에 따른 간단한 IP유출 여부를 확인하는 웹사이트 입니다.
+mcv.kr공식 [가이드라인](https://cafe.naver.com/mcvkr/136)에 따른 간단한 IP유출 여부를 확인하는 웹사이트 입니다.  
 **이 프로젝트는 현재 제작 중입니다**
 ## todo
 - [ ] IPv6 지원
@@ -8,7 +8,7 @@ mcv.kr공식 [가이드라인](https://cafe.naver.com/mcvkr/136)에 따른 간�
 - [ ] Minecraft 이외의 서비스 지원
 
 ## report
-버그 제보 및 관련 의견은
+버그 제보 및 관련 의견은 Issue로 부탁 드리며 이메일 문의는 받지 않습니다.
 
 ## notice
 - 기본적으로 IP주소와 기타 개인정보를 수집하지 않으며, 그럴 수 있게 설계되어 있지 않습니다.
