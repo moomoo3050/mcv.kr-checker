@@ -4,7 +4,7 @@
     justify-content: space-between;
     height: 100%;
 }
-select,option,button,input{
+select,option,button,input, table{
     width: 20em;
     height: 2em;
     outline: none;

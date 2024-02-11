@@ -33,9 +33,21 @@ Cloudflare DoH 로 A, SRV레코드 받아오기
                     <button type="button" onclick="getIPaddr()">자동감지</button> 
                 </div>
                 <button type="button" onclick="check()">검사하기</button>
+                <table>
+                    <tr>
+                        <td>A레코드</td>
+                        <td id="A">-</td>
+                    </tr>
+                    <tr>
+                        <td>SRV레코드</td>
+                        <td id="SRV">-</td>
+                    </tr>
+                    <tr>
+                        <td>SRV레코드에 연결된 A레코드</td>
+                        <td id="MCV">-</td>
+                    </tr>
+                </table>
             </div>
-            <h1 id="result"> </h1>
-            <h2 id="desc"> </h2>
             <div id="progress"> <!-- 추후 만들 진행도 -->
 
             </div>
