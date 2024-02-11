@@ -18,24 +18,24 @@ Cloudflare DoH 로 A, SRV레코드 받아오기
             <div id="form"> <!-- 입력란 -->
                 <div> <!-- 서버주소 입력란 -->
                     <h3>서버주소</h3>
-                    <input type="text" name="sv-addr" id="sv-addr" placeholder="서버 주소 입력">.mcv.kr
+                    <input type="text" id="sv-addr" placeholder="서버 주소 입력">.mcv.kr
                 </div>
                 <div><!-- 서비스 선택란 -->
                     <h3>서비스 선택</h3>
-                    <select name="service" id="service">
+                    <select id="service">
                         <option value="minecraft">minecraft</option>
                     </select>
                 </div>
                 <!-- IP주소 입력란 -->
                 <div>
-                    <h3>IP주소</h3>
-                    <input type="text" name="IP" id="ip" placeholder="IP주소 입력">
-                    <button type="button">자동감지</button> 
+                    <h3>서버 IP주소</h3>
+                    <input type="text" id="ip" placeholder="IP주소 입력">
+                    <button type="button" onclick="getIPaddr()">자동감지</button> 
                 </div>
-                <button type="button">검사하기</button>
-                <h1> </h1>
-                <h2> </h2>
+                <button type="button" onclick="check()">검사하기</button>
             </div>
+            <h1 id="result"> </h1>
+            <h2 id="desc"> </h2>
             <div id="progress"> <!-- 추후 만들 진행도 -->
 
             </div>
