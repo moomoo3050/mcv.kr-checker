@@ -29,7 +29,7 @@ async function setIPaddr(){
 function check(){
 
     // input 수집
-    var sv_addr = document.querySelector("#sv-addr").value; // 서버 주소(mcv.kr 제외)
+    var sv_addr = document.querySelector("#sv-addr").value+"mcv.kr"; // 서버 주소(mcv.kr 제외)
     var ip_addr = document.querySelector("#ip").value; //ip 주소
     var service = document.querySelector("#service").options[document.querySelector("#service").selectedIndex].text;
 
@@ -46,4 +46,6 @@ function check(){
     3 query 2 type:A == IP?
     4 3 == pipefilter.mcv.kr?
     */
+
+    DNSquery()
 }
