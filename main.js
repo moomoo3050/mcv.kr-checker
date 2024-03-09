@@ -7,10 +7,10 @@
 */
 
 function DNSquery(domain, type){
-    fetch(`https://1.1.1.1/dns-query?name=${domain}&type=${type}`, {headers: {"accept": "application/dns-json"}})
-        .then(response=>response.json())
+    fetch(`https://1.1.1.1/dns-query?name=${domain}&type=${type}`, {headers: {"accept": "application/dns-json"}}) //query
+        .then(response=>response.json()) // json
         .then(resp=>{
-            if (resp.Answer != undefined){
+            if (resp.Answer != undefined){ // non-exist domain
                 return resp.Answer[0].data;
             } else {
                 return undefined
@@ -18,7 +18,7 @@ function DNSquery(domain, type){
         });
 }
 
-async function getIPaddr(){
+async function setIPaddr(){
     await fetch('https://api.ipify.org?format=json')
     .then(response=>response.json())
     .then(data=>{
